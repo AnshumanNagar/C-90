@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Game Page</title>
+        <link rel="stylesheet" href="game_page.css">
+        <script src="game_page.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    </head>
+
+    <body onload="onload()">
+        <div id="playerName">
+            <h3 id="player1_Name"></h3>
+            <h3 id="player2_Name"></h3>
+        </div>
+
+        <div id="main_Area">
+            <center>
+                <h1>Maths Quiz</h1>
+                <h3 id="question_turn">hshs</h3>
+                <h3 id="answer_turn"></h3>
+
+                <div id="question_Area">
+                    <h2 id="question"></h2>
+                    <input id="answer_Input" class="form-control" placeholder="Answer">
+                    <br>
+                    <button id="check_Btn" class="btn btn-primary">Check</button>
+                </div>
+                <br>
+                <div id="input_Area">
+                    <input id="number_1" class="form-control" placeholder="Number 1">
+                    <br>
+                    <input id="number_2" class="form-control" placeholder="Number 2">
+                </div>
+                <br>
+                <button id="send_Btn" class="btn btn-success">Send</button>
+            </center>
+        </div>
+    </body>
+</html>

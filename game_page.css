@@ -1,0 +1,52 @@
+body{
+    padding: 1%;
+}
+
+#playerName{
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #f36565;
+    color: white;
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+}
+
+#main_Area{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main_Area h1{
+    font-weight: bold;
+    color: #f36565;
+    background-color: black;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#main_Area h3{
+    font-weight: bold;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#main_Area input{
+    height: 7%;
+}
+
+#main_Area button{
+    width: 40%;
+    height: 10%;
+    font-size: large;
+}
+
+#question_Area{
+    border-radius: 5px;
+    background-color: #f36565;
+    color: white;
+    padding: 2%;
+    display: none;
+}

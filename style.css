@@ -1,0 +1,58 @@
+html{
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+#login_Screen{
+    height: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    padding: 1.5%;
+}
+
+#login_Header{
+    color: white;
+    font-size: 60px;
+    background-color: #000000a4;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#player1_Login{
+    background-color: #ffffffa4;
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+#player1_Name{
+    height: 6%;
+    font-size: large;
+}
+
+
+#player2_Login{
+    background-color: #ffffffa4;
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+#player_LoginBtn{
+    width: 50%;
+    height: 10%;
+    font-size: x-large;
+}
+
+#player2_Name{
+    height: 6%;
+    font-size: large;
+}
+
+#p1{
+    font-size: 40px;
+    margin-right: -50px;
+}
+
+#p2{
+    font-size: 40px;
+    margin-right: -50px;
+}

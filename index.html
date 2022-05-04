@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>C-89</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    </head>
+
+    <body>
+        <div class="container-fluid" id="login_Screen">
+            <h1 id="login_Header"><b><i class="bi bi-person-fill"></i> Login Page</b></h1>
+            <br>
+            <div class="container" id="player1_Login">
+                <h1><b>Player 1 Login</b></h1>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                        <i class="bi bi-person" id="p1"></i>
+                    </div>
+
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                        <input placeholder="Player 1 Name" type="text" id="player1_Name" class="form-control">
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br>
+            <div class="container" id="player2_Login">
+                <h1><b>Player 2 Login</b></h1>
+                <br>
+                <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                        <i class="bi bi-person" id="p2"></i>
+                    </div>
+
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                        <input placeholder="Player 2 Name" type="text" id="player2_Name" class="form-control">
+                    </div>
+                </div>
+                <br>
+            </div>
+            <br><br>
+            <button id="player_LoginBtn" class="btn btn-primary" onclick="addUser()">Login <i class="bi bi-arrow-right"></i></button>
+        </div>
+    </body>
+</html>
